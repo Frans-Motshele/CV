@@ -74,6 +74,9 @@ h3{
     align-items: center;
 }
 
+a:active{
+    cursor: wait;
+}
 
 a{
     text-decoration: none;
