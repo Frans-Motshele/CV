@@ -1,15 +1,20 @@
 *{
     box-sizing: border-box;
+    scroll-behavior: smooth;
     /**border:none;**/
 }
+
 body{
-    margin-top:80px;
+    margin-top:100px;
+}
+
+footer{
+    background-color: lightblue;
 }
 
 h1{
     font-family:Tahoma, Geneva, Verdana, sans-serif;
-    margin-top:100px;
-    text-align: center;
+    /*margin-top:100px;*/
     
 }
 
@@ -19,15 +24,21 @@ h1{
 }
 
 
+
+
 h3{
     
     font-size: 2em;
 }
 
 .left-container{
-    width:20%;
-    
+    width:25%;
+    min-width:25%;
     flex-wrap: wrap;
+
+    display: flex;
+    
+    white-space: wrap;
 }
 
 .container{
@@ -38,12 +49,16 @@ h3{
 
 .right-container{
     position: relative;
-    width:80%;
+    width:70%;
     left: 10%;
     border-left:2px solid lightblue;
     padding-left:5%
     
 }
+
+
+
+/**.top-header p{
 
 /**.top-header p:nth-child(-n + 2){
     padding-right:5%;
@@ -63,9 +78,9 @@ h3{
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-
+    
 .top-header > p{
-    flex: 1;                 /* each takes equal space */
+    flex: 1;                  each takes equal space 
     margin: 0;
     text-align: center;
 
@@ -73,6 +88,9 @@ h3{
     justify-content: center;
     align-items: center;
 }
+
+**/
+
 
 a:active{
     cursor: wait;
@@ -83,31 +101,31 @@ a{
     padding: 5px 6px;
     color:black;
     margin: 0;
+    border-radius:10px;
 
 }
 
 .top-header a:hover{
     color:lightblue;
     background-color: black;
-    border-radius:10px;
+    
     transition: 0.2s ease-in;
     
 }
 
-/**.top-header{
-    display:flex;
-    background-color: lightblue;
-    flex-wrap: wrap;
-    position:fixed;
-    top:0;
-    width:100%;
-    left:0;
-    font-family:Geneva, Tahoma, sans-serif;
-    justify-content: space-around;
-    gap:10px;
-    padding:10px;
+#contact-info a:hover{
+    text-decoration: underline;
+    font-weight: bold;
 }
-    **/
+
+
+#contact-info i:hover{
+   color:lightblue;
+    background-color: black;
+    
+    transition: 0.2s ease-in; 
+}
+
 
 
 .top-header{
@@ -115,7 +133,7 @@ a{
                  
     justify-content: space-between;
     align-items: center;
-    gap:10px;
+    
     padding: 10px 20px;
     background-color: lightblue;
     z-index:1000;
@@ -145,7 +163,7 @@ dt{
 }
 
  h2{
-    font-family: geneva,sans-serif;
+    font-family: Tahoma,geneva,sans-serif;
     font-weight: bold;
     margin-bottom: 10px;
     
@@ -202,7 +220,39 @@ hr{
     background-color: #e6f2ff;
     font-weight: bold;
 }
+i{
+    font-size:1.2rem;
+    padding:5px;
+    border-radius: 100%;
+    vertical-align: 0px;
+}
+#contact-info{
+    background-color: lightblue;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    position:relative;
+    left:0;
+    right:0;
+    bottom:0;
+    height:100px;
 
+}
+/**
+@media (max-width:600px){
+     .top-header{
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .top-header > p{
+        width: 100%;
+        justify-content: center;
+        white-space: normal;    allow wrapping ONLY on mobile 
+    }
 
+}
+    **/
 
