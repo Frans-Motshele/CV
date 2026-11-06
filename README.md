@@ -6,23 +6,26 @@ A personal CV website built with HTML and CSS, showcasing my background, skills,
 
 ## 🌐 Live Preview
 
-Open `index.html` directly in your browser — no server or installation required.
+[Frans CV](https://frans-cv.netlify.app/)
 
 ---
 
-## 🚀 How to Run
+## 🚀 How to Run Locally
 
 1. **Clone or download** this repository:
-   ```bash
+
+   ```
    git clone https://github.com/Frans-Motshele/CV.git
    ```
 
 2. **Navigate** into the project folder:
-   ```bash
+
+   ```
    cd CV
    ```
 
 3. **Open** `index.html` in your browser:
+
    - Double-click the file in your file explorer, or
    - Right-click → *Open with* → your browser of choice
 
@@ -33,9 +36,10 @@ No build tools, frameworks, or dependencies needed.
 ## 📁 Project Structure
 
 ```
-├── index.html       # Main CV page
-├── style.css        # All styling and layout
-└── README.md        # Project documentation
+├── index.html                              # Main CV page
+├── stylesheet.css                          # All styling and layout
+├── Frans Motshele - Profile picture.jpg    # Profile image
+└── README.md                               # Project documentation
 ```
 
 ---
@@ -44,6 +48,7 @@ No build tools, frameworks, or dependencies needed.
 
 - **HTML5** — page structure and content
 - **CSS3** — styling, layout, and responsiveness
+- **Netlify** — hosting and deployment
 
 ---
 
