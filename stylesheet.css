@@ -80,10 +80,9 @@ h3{
 }
     
 .top-header > p{
-    flex: 1;                  each takes equal space 
+    flex: 1;                 /* each takes equal space*/ 
     margin: 0;
     text-align: center;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,6 +117,15 @@ a{
     font-weight: bold;
 }
 
+.certificates a {
+     text-decoration: underline;
+     color:blue
+}
+
+.projects a{
+     text-decoration: underline;
+     color:blue
+}
 
 #contact-info i:hover{
    color:lightblue;
